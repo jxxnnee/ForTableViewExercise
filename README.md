@@ -1,6 +1,6 @@
 # ForTableViewExercise
 
-![view.png](https://github.com/jxxnnee/ForTableViewExercise/raw/master/Images/view.png)
+<img src="https://github.com/jxxnnee/ForTableViewExercise/raw/master/Images/view.png" alt="view.png" style="zoom:50%;" />
 
 
 ## 기능
