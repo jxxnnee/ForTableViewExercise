@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="RestaurantListTableCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RestaurantListTableCell" rowHeight="333" id="V1I-tr-Ynd" customClass="RestaurantListTableCell" customModule="YogiyoCodingTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="452" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="V1I-tr-Ynd" id="m3b-Jh-GY9">
+                <rect key="frame" x="0.0" y="0.0" width="452" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iEG-Rr-qd9">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="CBn-pk-evy"/>
+                            <constraint firstAttribute="width" constant="100" id="D2c-js-wPG"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVw-eO-B2s">
+                        <rect key="frame" x="110" y="10" width="42" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="fU0-Yl-1nD">
+                        <rect key="frame" x="110" y="40" width="200" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="A8m-TF-bmU"/>
+                        </constraints>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="8IZ-tj-7JH" userLabel="Category Stack View">
+                        <rect key="frame" x="110" y="70" width="337" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="XPa-u9-F73"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="8IZ-tj-7JH" firstAttribute="leading" secondItem="kVw-eO-B2s" secondAttribute="leading" id="7hq-V2-YiW"/>
+                    <constraint firstAttribute="bottom" secondItem="iEG-Rr-qd9" secondAttribute="bottom" id="C4q-Dz-jci"/>
+                    <constraint firstItem="iEG-Rr-qd9" firstAttribute="leading" secondItem="m3b-Jh-GY9" secondAttribute="leading" id="Cva-mH-GH0"/>
+                    <constraint firstItem="iEG-Rr-qd9" firstAttribute="top" secondItem="m3b-Jh-GY9" secondAttribute="top" id="MSe-mS-XcS"/>
+                    <constraint firstItem="kVw-eO-B2s" firstAttribute="leading" secondItem="iEG-Rr-qd9" secondAttribute="trailing" constant="10" id="U5k-MA-pJQ"/>
+                    <constraint firstAttribute="bottom" secondItem="8IZ-tj-7JH" secondAttribute="bottom" constant="10" id="ZW9-AA-Udx"/>
+                    <constraint firstItem="8IZ-tj-7JH" firstAttribute="top" secondItem="fU0-Yl-1nD" secondAttribute="bottom" constant="10" id="cag-p7-e0h"/>
+                    <constraint firstItem="kVw-eO-B2s" firstAttribute="top" secondItem="m3b-Jh-GY9" secondAttribute="top" constant="10" id="fMW-8h-Nyk"/>
+                    <constraint firstItem="fU0-Yl-1nD" firstAttribute="centerY" secondItem="m3b-Jh-GY9" secondAttribute="centerY" id="hvh-Yr-DMP"/>
+                    <constraint firstItem="fU0-Yl-1nD" firstAttribute="leading" secondItem="kVw-eO-B2s" secondAttribute="leading" id="mUl-S1-8n0"/>
+                    <constraint firstItem="fU0-Yl-1nD" firstAttribute="top" secondItem="kVw-eO-B2s" secondAttribute="bottom" constant="10" id="wWb-rC-foo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="categoryStackView" destination="8IZ-tj-7JH" id="4bs-XK-nGV"/>
+                <outlet property="logo" destination="iEG-Rr-qd9" id="82l-Er-dwZ"/>
+                <outlet property="name" destination="kVw-eO-B2s" id="YuP-da-AGC"/>
+                <outlet property="optionsStackView" destination="fU0-Yl-1nD" id="FIs-Oz-w1Z"/>
+            </connections>
+            <point key="canvasLocation" x="-456.52173913043481" y="174.10714285714286"/>
+        </tableViewCell>
+    </objects>
+</document>

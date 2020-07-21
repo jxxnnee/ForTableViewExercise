@@ -1,0 +1,175 @@
+[
+	{
+		"isAvailablePickup": true,
+		"logoUrl": "https://dl.dropboxusercontent.com/sh/s7ftuu3ljh68ip1/AACLmHWdHjP57HSp5EebC4xca/BBQ.jpg?dl=0",
+		"isLong": false,
+		"name": "BBQ-김포마송점",
+		"ownerReplyCount": 10,
+		"reviewAvg": 4.53225806451613,
+		"reviewCount": 124,
+		"section": "section1",
+		"sectionTitle": "슈퍼레드위크",
+		"isPhoneOrderAvailable": true,
+		"payment": [
+			"yogiseo",
+			"offline"
+		]
+	},
+	{
+		"isAvailablePickup": false,
+		"logoUrl": "https://dl.dropboxusercontent.com/sh/s7ftuu3ljh68ip1/AAB-39JKNTo3NYHDUwxmK8qCa/S0182575_20150127182323.png?dl=0",
+		"isLong": true,
+		"name": "매운총각네",
+		"ownerReplyCount": 0,
+		"reviewAvg": 5.0,
+		"reviewCount": 1,
+		"section": "section1",
+		"sectionTitle": "슈퍼레드위크",
+		"isPhoneOrderAvailable": false,
+		"payment": [
+			"yogiseo",
+			"offline"
+		]
+	},
+	{
+		"isAvailablePickup": false,
+		"logoUrl": "https://dl.dropboxusercontent.com/sh/s7ftuu3ljh68ip1/AAAZQ5VdPrUOjH3odUAJKAyHa/ggatnip.JPG?dl=0",
+		"isLong": false,
+		"name": "깻잎두마리칩킨-통진점",
+		"ownerReplyCount": 0,
+		"reviewAvg": 4.48275862068965,
+		"reviewCount": 58,
+		"section": "section2",
+		"sectionTitle": "우리동네플러스",
+		"isPhoneOrderAvailable": true,
+		"payment": [
+			"yogiseo"
+		]
+	},
+	{
+		"isAvailablePickup": false,
+		"logoUrl": "https://dl.dropboxusercontent.com/sh/s7ftuu3ljh68ip1/AACmRnwQgkOsfWbWOn2WjObva/bhc.JPG?dl=0",
+		"isLong": false,
+		"name": "BHC-마송점",
+		"ownerReplyCount": 0,
+		"reviewAvg": 4.32558139534884,
+		"reviewCount": 172,
+		"section": "section2",
+		"sectionTitle": "우리동네플러스",
+		"isPhoneOrderAvailable": false,
+		"payment": [
+			"yogiseo",
+			"offline"
+		]
+	},
+	{
+		"isAvailablePickup": false,
+		"logoUrl": "https://dl.dropboxusercontent.com/sh/s7ftuu3ljh68ip1/AABT0fCkyCxRQwMPwCVogQPya/pigfoot.jpg?dl=0",
+		"isLong": false,
+		"name": "장충동본가왕족발보쌈-양곡본점",
+		"ownerReplyCount": 0,
+		"reviewAvg": 0.0,
+		"reviewCount": 0,
+		"section": "section2",
+		"sectionTitle": "우리동네플러스",
+		"isPhoneOrderAvailable": true,
+		"payment": [
+			"yogiseo",
+			"offline"
+		]
+	},
+	{
+		"isAvailablePickup": false,
+		"logoUrl": "https://dl.dropboxusercontent.com/sh/s7ftuu3ljh68ip1/AAA6yVGx3oJI8TpSsFHsf6P_a/mrpizza.JPG?dl=0",
+		"isLong": false,
+		"name": "미스터피자-통진점",
+		"ownerReplyCount": 20,
+		"reviewAvg": 4.71428571428571,
+		"reviewCount": 35,
+		"section": "section3",
+		"sectionTitle": "요기요 등록 음식점",
+		"isPhoneOrderAvailable": true,
+		"payment": [
+			"yogiseo",
+			"offline"
+		]
+	},
+	{
+		"isAvailablePickup": false,
+		"logoUrl": "https://dl.dropboxusercontent.com/sh/s7ftuu3ljh68ip1/AAAm39emj2ZSMCp6N0pfPSdRa/goobne.JPG?dl=0",
+		"isLong": false,
+		"name": "굽네치킨-통진점",
+		"ownerReplyCount": 0,
+		"reviewAvg": 4.52083333333333,
+		"reviewCount": 48,
+		"section": "section3",
+		"sectionTitle": "요기요 등록 음식점",
+		"isPhoneOrderAvailable": false,
+		"payment": [
+			"yogiseo",
+			"offline"
+		]
+	},
+	{
+		"isAvailablePickup": false,
+		"logoUrl": "https://dl.dropboxusercontent.com/sh/s7ftuu3ljh68ip1/AACDYxhcXTE_XtxpdlZKSJP3a/ddoraeorae.jpg?dl=0",
+		"isLong": false,
+		"name": "또래오래-김포마송점",
+		"ownerReplyCount": 0,
+		"reviewAvg": 4.30612244897959,
+		"reviewCount": 49,
+		"section": "section3",
+		"sectionTitle": "요기요 등록 음식점",
+		"isPhoneOrderAvailable": true,
+		"payment": [
+			"offline"
+		]
+	},
+	{
+		"isAvailablePickup": false,
+		"logoUrl": "https://dl.dropboxusercontent.com/sh/s7ftuu3ljh68ip1/AACEZ0ijREib5oMDGRAeTD5ya/onegrandmother.jpg?dl=0",
+		"isLong": false,
+		"name": "원할머니보쌈-김포통진점",
+		"ownerReplyCount": 0,
+		"reviewAvg": 4.36363636363636,
+		"reviewCount": 11,
+		"section": "section3",
+		"sectionTitle": "요기요 등록 음식점",
+		"isPhoneOrderAvailable": true,
+		"payment": [
+			"yogiseo"
+		]
+	},
+	{
+		"isAvailablePickup": false,
+		"logoUrl": "https://dl.dropboxusercontent.com/sh/s7ftuu3ljh68ip1/AACwZ_814mEN32jIHe0ywWKza/supizza.jpg?dl=0",
+		"isLong": false,
+		"name": "수피자-통진점",
+		"ownerReplyCount": 0,
+		"reviewAvg": 4.12765957446809,
+		"reviewCount": 47,
+		"section": "section3",
+		"sectionTitle": "요기요 등록 음식점",
+		"isPhoneOrderAvailable": true,
+		"payment": [
+			"yogiseo",
+			"offline"
+		]
+	},
+	{
+		"isAvailablePickup": false,
+		"logoUrl": "https://dl.dropboxusercontent.com/sh/s7ftuu3ljh68ip1/AAARD8tUmm4NWFxm3PR-RkVka/obbapig.jpg?dl=0",
+		"isLong": false,
+		"name": "오빠돼지-김포구래7호점",
+		"ownerReplyCount": 0,
+		"reviewAvg": 4.82857142857143,
+		"reviewCount": 70,
+		"section": "section3",
+		"sectionTitle": "요기요 등록 음식점",
+		"isPhoneOrderAvailable": false,
+		"payment": [
+			"yogiseo",
+			"offline"
+		]
+	}
+]
