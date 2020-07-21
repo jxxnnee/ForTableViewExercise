@@ -1,6 +1,7 @@
 # ForTableViewExercise
 
-![example.gif](https://github.com/jxxnnee/ForTableViewExercise/raw/master/images/view.png)
+![view.png](https://github.com/jxxnnee/ForTableViewExercise/raw/master/Images/view.png)
+
 
 ## 기능
 
